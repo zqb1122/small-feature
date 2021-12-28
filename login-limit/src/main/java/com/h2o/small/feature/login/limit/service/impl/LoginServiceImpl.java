@@ -26,10 +26,6 @@ public class LoginServiceImpl implements ILoginService {
     @Autowired
     RedisTemplate redisTemplate;
 
-    /**
-     * getRedisScript 读取脚本工具类
-     * 这里设置为Long,是因为ipLimiter.lua 脚本返回的是数字类型
-     */
     private DefaultRedisScript<Long> getRedisScript;
 
     @PostConstruct

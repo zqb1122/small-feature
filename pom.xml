@@ -16,8 +16,10 @@
 
     <modules>
         <module>small-redis</module>
-        <module>login-limit</module>
-        <module>small-common</module><!--10001-->
+        <module>small-common</module>
+        <module>login-limit</module><!--10001-->
+        <module>repeat-submission</module><!--10002-->
+        <module>cosine-similarity</module><!--10003-->
     </modules>
 
 
