@@ -19,7 +19,8 @@
         <module>small-common</module>
         <module>login-limit</module><!--10001-->
         <module>repeat-submission</module><!--10002-->
-        <module>cosine-similarity</module><!--10003-->
+        <module>cosine-similarity</module>
+        <module>reptile</module><!--10003-->
     </modules>
 
 

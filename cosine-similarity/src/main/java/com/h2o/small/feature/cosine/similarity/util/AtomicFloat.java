@@ -14,7 +14,7 @@ public class AtomicFloat extends Number {
     }
 
     public AtomicFloat(float initialValue) {
-        bits = new AtomicInteger(Float.floatToIntBits(initialValue));
+        bits =  new AtomicInteger(Float.floatToIntBits(initialValue));
     }
 
     //叠加
